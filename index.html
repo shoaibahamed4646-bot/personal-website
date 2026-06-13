@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shoaib Mahin - CSE Student & Developer Portfolio Website. Discover my projects, skills, and get in touch.">
+    <title>Shoaib Mahin | CSE Student & Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                Shoaib<span>Mahin</span>
+            </a>
+            
+            <button class="nav-toggle" aria-label="Toggle Navigation" id="navToggle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <div class="hero-wrapper">
+                <span class="hero-tag">Welcome to my space</span>
+                <h1 class="hero-title">
+                    Hi, I'm Shoaib Mahin.<br>
+                    Computer Science & Engineering Student.
+                </h1>
+                <p class="hero-desc">
+                    I build clean, efficient, and user-centric web applications and software. 
+                    Passionate about learning new technologies and solving complex computational problems.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn btn-primary">View My Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">A brief overview of my academic background, technical expertise, and what drives my passion for computer science.</p>
+            
+            <div class="about-grid">
+                <div class="about-info">
+                    <div class="about-image-wrapper">
+                        <img src="images/avatar.png" alt="Shoaib Mahin" class="about-avatar">
+                    </div>
+                    <p>
+                        I am currently pursuing a Bachelor's degree in <strong>Computer Science & Engineering (CSE)</strong>. 
+                        From my early semesters, I fell in love with algorithm design, software architecture, and the endless possibilities of web development.
+                    </p>
+                    <p>
+                        My academic journey has equipped me with a strong foundation in core computer science principles, 
+                        including Data Structures, Algorithms, Database Management Systems, and Object-Oriented Programming. 
+                        I enjoy transforming abstract logic into robust, functional software applications.
+                    </p>
+                    
+                    <div class="education-card">
+                        <span class="year">2023 - Present</span>
+                        <h3>B.Sc. in Computer Science & Engineering</h3>
+                        <p class="inst">Department of CSE</p>
+                        <p>Focusing on software development, data structures, analysis of algorithms, and web engineering. Active participant in coding contests and programming clubs.</p>
+                    </div>
+                </div>
+                
+                <div class="skills-wrapper">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <div class="skill-list">
+                                <span class="skill-tag">C/C++</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">JavaScript</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4>Web Technologies</h4>
+                            <div class="skill-list">
+                                <span class="skill-tag">HTML5</span>
+                                <span class="skill-tag">CSS3</span>
+                                <span class="skill-tag">Bootstrap</span>
+                                <span class="skill-tag">React.js</span>
+                                <span class="skill-tag">MySQL</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4>Tools & Platforms</h4>
+                            <div class="skill-list">
+                                <span class="skill-tag">Git & GitHub</span>
+                                <span class="skill-tag">VS Code</span>
+                                <span class="skill-tag">XAMPP</span>
+                                <span class="skill-tag">Linux</span>
+                                <span class="skill-tag">Figma</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4>Soft Skills</h4>
+                            <div class="skill-list">
+                                <span class="skill-tag">Problem Solving</span>
+                                <span class="skill-tag">Teamwork</span>
+                                <span class="skill-tag">Quick Learner</span>
+                                <span class="skill-tag">Communication</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Here is a selection of projects I've built during my academic coursework and personal coding sessions.</p>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-type">Web Application</span>
+                        </div>
+                        <h3>Student Database Portal</h3>
+                        <p>A web portal developed for academic institutes to manage student enrollments, academic transcripts, and attendance securely.</p>
+                        <div class="project-tags">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-type">Web Design</span>
+                        </div>
+                        <h3>Minimalist Portfolio</h3>
+                        <p>My personal digital portfolio showcasing my profile, academic projects, technical skills, and a way to reach out to me.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Vanilla JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-type">Frontend JS</span>
+                        </div>
+                        <h3>Algorithm Visualizer</h3>
+                        <p>An interactive, graphical web app that visualizes sorting (Bubble, Quick, Merge) and pathfinding algorithms in real-time.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>HTML5</span>
+                            <span>CSS Grid</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project idea, academic inquiry, or just want to say hi? Feel free to drop a message!</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info-panel">
+                    <h3>Let's Connect</h3>
+                    <p>I am always open to discussing new projects, internship opportunities, or academic collaborations.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>shoaib.mahin@example.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Dhaka, Bangladesh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <div id="formMessage" class="form-message"></div>
+                    <form id="contactForm">
+                        <!-- Web3Forms Config Key (Replace YOUR_ACCESS_KEY_HERE with your Web3Forms access key) -->
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                        <input type="hidden" name="subject" value="New Submission from Shoaib Mahin's Portfolio">
+                        <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject_text">Subject</label>
+                            <input type="text" id="subject_text" name="subject_text" class="form-control" required placeholder="What is this about?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" required placeholder="Type your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Shoaib Mahin. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="mailto:shoaib.mahin@example.com" aria-label="Email">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
