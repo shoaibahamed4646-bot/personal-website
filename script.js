@@ -6,7 +6,7 @@
 // Replace YOUR_SUPABASE_URL and YOUR_SUPABASE_ANON_KEY with your credentials
 // =========================================================================
 const supabaseUrl = 'https://fdtvqmhnaxdhjzmflkwi.supabase.co';
-const supabaseKey = 'YOUR_SUPABASE_ANON_KEY';
+const supabaseKey = 'sb_publishable_p8pRdWn2jRHCPo-Bh4gJdQ_KW6VPWm8';
 
 let supabaseClient = null;
 if (typeof supabase !== 'undefined' && supabaseUrl !== 'YOUR_SUPABASE_URL') {
